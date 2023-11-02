@@ -1,10 +1,15 @@
 # WebPro
+![WebPro](https://github.com/GustavoCiecSilva/WebPro/assets/146038149/60842801-a499-4ef8-a27d-a8985ce8c7e8)
+
 
 Projeto para apresentar no curso de graduação em Gestão da Tecnologia da Informação do Instituto Federal do Paraná (IFPR).
 
-# Equipe:
+## Equipe:
 * Gustavo Cieczinski da Silva
 * Felipe Giovane
 
-# Descrição:
-WebPro 
+## Descrição
+WebPro é uma aplicação web que fornece a criação de sites para os usuários que buscam divulgar seus produtos de uma forma eficiente e acessivel de forma gratuita
+
+## Justificativa
+Nosso objetivo é incentivar o crescimento de pequenos micro-empreendedores que desejam divulgar seus produtos com seus próprios sites 
