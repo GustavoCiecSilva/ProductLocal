@@ -11,5 +11,8 @@ Projeto para apresentar no curso de graduação em Gestão da Tecnologia da Info
 ## Descrição
 WebPro é uma aplicação web que fornece a criação de sites para os usuários locais que buscam divulgar seus produtos de uma forma eficiente e acessivel de forma gratuita
 
+![image](https://github.com/GustavoCiecSilva/WebPro/assets/146038149/f1d5eefe-01a9-4e3e-9062-cab2df1122e3)
+
+
 ## Justificativa
 Nosso objetivo é incentivar o crescimento de pequenos micro-empreendedores que desejam divulgar seus produtos com seus próprios sites 
