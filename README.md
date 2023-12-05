@@ -15,6 +15,7 @@ WebPro é uma aplicação web que fornece a criação de sites para os usuários
 * Criar sites de forma prática e fácil
 * Desing do site focado no usuário
 * Estatísticas para analisar o desempenho de seus sites (visualizações e interações)
+* Uma fácil administração de sites criados
 
 
 ## Justificativa
