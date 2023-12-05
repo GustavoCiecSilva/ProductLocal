@@ -9,7 +9,7 @@ Projeto para apresentar no curso de graduação em Gestão da Tecnologia da Info
 * Felipe Giovane
 
 ## Descrição
-WebPro é uma aplicação web que fornece a criação de sites para os usuários locais que buscam divulgar seus produtos de uma forma eficiente e acessivel de forma gratuita
+WebPro é uma aplicação web que fornece a criação de sites para os usuários locais que buscam divulgar seus produtos de uma forma eficiente e acessivel de forma gratuita. Esse projeto pode ser relacionado com o trabalho decente e crescimento econômico sendo esse o objetivo 8 do ODS (Objetivos de desenvolvimento sustentável)
 
 ## Funcionalides
 * Criar sites de forma prática e fácil
