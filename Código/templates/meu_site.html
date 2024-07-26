@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='inicio.css')}}">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">WebPro</h1>
+            <ul>
+                <a href="{{url_for('principal')}}"><li class="sobre">Sair</li></a>
+                <a href="{{url_for('minha_conta')}}"><li class="sobre">Conta</li></a>
+                <title>WebPro</title>
+            </ul>
+        </header>
+        <div class="cabecalho">
+            <h2 class="Titulo2">Meus Sites</h2>
+            <a href="{{url_for('modelo_sites')}}"><button type="submit" class="novo_site">Novo site</button></a>
+        </div>
+        <div class="sites_usuario">
+            <h1>{{titulo}}</h1>
+            <a href="{{url_for('retorna_site')}}">Visualizar site</a>       
+        </div>
+        <div>
+            <form action="{{url_for('excluir_site')}}" method="post">
+                <input type="hidden" name="exclui" value="1">
+                <button type="submit" name="exclui_site" class="excluir_pagina">Excluir site</button>
+            </form>
+        </div>
+    </body>
+</html>

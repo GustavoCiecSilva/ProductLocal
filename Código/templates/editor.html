@@ -1,0 +1,80 @@
+<html>
+        <head>
+            <link rel="stylesheet" href="{{url_for('static', filename='teste.css')}}">
+            <link rel="stylesheet" href="{{url_for('static', filename='modelo_artigo.css')}}">
+            <title>Editor de pagina</title>
+        </head>
+        <body>
+            <div class="conteudo">
+                <div class="editor">
+                    <h1 class="titulo3">WebPro</h1>
+                    <form action="{{url_for('altera_site')}}" method='get'>
+                        <label>Titulo da Página:</label>
+                        <input type="text" class="edit_nome" name="titulo" placeholder="Digite o titulo da página">
+                        <label>Titulo do Paragrafo 1:</label>
+                        <input type="text" class="edit_nome" name="paragrafo1" placeholder="Digite o titulo do paragrafo">
+                        <label>Descrição: </label>
+                        <textarea rows="4" class="textarea_teste" name="descricao"  placeholder="Informe a description"></textarea><!--O que é rows?-->
+                        <h2>Personalização de cores</h2>
+                        <label>Cor de Fundo: </label><!--Posso substituir por h1 ou p -->
+                        <input type="color" class="edit_color"><br><br>
+                        <button type="button" class="enviar_input" onclick="AdicionaInput()">Adicionar Paragrafo</button><br><br>
+                        <button class="enviar_input" type="submit">Adicionar Informações</button><br>
+                    </form>
+                    <!--Aqui vou criar um formulario com a função de fazer um for pra rodar a lista sites que vai armazenar os request nela assim criando um novo html com esses mesmo request para salvar sem a parte do editor-->
+                    <form action="{{url_for('salva_modelo')}}" method="post">
+                        <button class="salvar" type="submit">Salvar Página</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--Aqui fica o modelo neutro-->
+            <div class="preview">
+                    <h1 class="h1_artigo" >{{titulo}}</h1>
+                    <main class="main_artigo">
+                        <article class="article_artigo">
+                            <h2 class="h2_artigo">{{paragrafo1}}</h2>
+                            <p class="p_artigo" >{{descricao}}</p>
+                        </article>
+                        <article class="main_artigo">
+                            <h2 class="h2_artigo">{{NovoParagrafo}}</h2>
+                            <p class="p_artigo">{{NovaDescricao}}</p>
+                        </article>
+                        <article class="article_artigo">
+                            <h2 class="h2_artigo">Título do Artigo 3</h2>
+                            <p class="p_artigo">Vestibulum lobortis justo at neque tristique aliquet. Nam ultricies metus quis libero rutrum, vitae laoreet est fermentum.</p>
+                        </article>
+                    </main>
+            </div>
+            <script>
+                var form=document.querySelector('form');/*retorna aonde está essa função ou seja dentro de um form*/
+                var lab=document.createElement('label');/*Para os titulos antes dos inputs*/
+                var lab2=document.createElement('label');
+                var novoParagrafo=document.createElement('input');
+                var quebraLinha=document.createElement('br');
+                var novaDescricao=document.createElement('textarea');
+
+                function AdicionaInput(){
+                    lab.textContent='Novo Paragrafo: ';
+                    lab2.textContent='Nova Descrição: '
+
+                    novoParagrafo.type='text';
+                    novoParagrafo.placeholder='Digite o titulo do novo paragrafo';
+                    novoParagrafo.name='NovoParagrafo';
+                    novoParagrafo.className='edit_nome';
+
+                    novaDescricao.placeholder='Digite a descrição';
+                    novaDescricao.name='novaDescricao';
+                    novaDescricao.className='textarea_teste';
+
+                    form.insertBefore(lab,form.querySelector('button'));/*O insertBefore passa o primeiro parametro que é a variavel, e depois acessar o form para inserir a primeira variavel no local correto após pressionar o button */
+                    form.insertBefore(quebraLinha,form.querySelector('button'));
+                    form.insertBefore(novoParagrafo, form.querySelector('button'));
+                    form.insertBefore(quebraLinha,form.querySelector('button'));
+                    form.insertBefore(lab2,form.querySelector('button'));
+                    form.insertBefore(quebraLinha,form.querySelector('button'));
+                    form.insertBefore(novaDescricao,form.querySelector('button'));
+                }
+            </script>
+        </body>
+</html>

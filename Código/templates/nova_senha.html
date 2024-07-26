@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='inicio.css')}}">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">WebPro</h1>
+            <ul>
+                <li class="sobre">Sobre</li>
+            </ul>
+        </header>
+        <div class="titulo_login">
+            <h1>Esqueceu a senha</h1>
+        </div>
+        <center>
+            <div class="conta_nova">
+                <form action="{{url_for('altera_senha')}}" method="post">
+                      Informe seu email: <br>
+                      <input type="text" class="email" name="email">
+                      <button type="submit" class="entrar">Avançar</button>
+                </form>
+            </div>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='inicio.css')}}">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">WebPro</h1>
+            <ul>
+                <li class="sobre">Sobre</li>
+            </ul>
+        </header>
+        <div class="titulo_login">
+            <h1>Login</h1>
+        </div>
+        <form action="{{url_for('check')}}" method='post'>
+            <div class="logar">
+                Usuário:<br><input type="text" class="nome" name="login"><br>
+                Senha: <br><input type="password" class="Senha" name="senha"><br>
+                <button type="submit" class="entrar" name="entrar">ENTRAR</button>
+            </div>
+        </form>
+        <div class="novo">
+            <ul>
+                <li>Não tem uma conta?<a href="{{url_for('novo_cadastro')}}"> Cadastrar</li></a><br>
+                <li class="novo_li">Esqueceu a senha: <a href="{{url_for('esqueceu_senha')}}">Redefinir senha</li></a>
+            </ul>
+        </div>
+    </body>
+</html>

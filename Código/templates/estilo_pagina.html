@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='inicio.css')}}">
+        <title>WebPro</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">WebPro</h1>
+        </header>
+        <center>
+            <div class="pergunta">
+                <p class="txtPergunta">Que tipo de site você gostaria de criar?</p>
+            </div><br>
+            <div class="busca">
+                <ul>
+                    <li>
+                    <form action="{{url_for('modelo_neutro')}}" method="post">
+                            <div class="tipo_modelo">
+                                <button type="submit" class="button_artigo"><h1 class="tipo_modelo_h1">Neutro</h1>
+                                <p class="tipo_modelo_p">Este é um modelo em branco, utilizado para usuários que desejam criar seu site com seu prórpio modelo  </p></button>
+                            </div>
+                    </form>
+                    </li>
+                    <li>
+                        <div class="tipo_modelo">
+                            <button type="submit" class="button_artigo"><h1 class="tipo_modelo_h1">Artigo</h1>
+                            <p class="tipo_modelo_p">Este é um modelo para artigos, como blogs ou textos que você deseja compartilhar com as pessoas  </p></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tipo_modelo_divulga">
+                            <button type="submit" class="button_artigo"><h1 class="tipo_modelo_divulga_h1">Divulgação</h1>
+                            <p class="tipo_modelo_divulga_p">Este é um modelo de divulgação, é um modelo focado em receitas culinaria ou perfis de redes sociais</p></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </center><br><br><br>
+        <div class="opcional">
+            <a class="voltar" href="{{url_for('principal')}}""><p class="voltar">Voltar</p></a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='inicio.css')}}">
+        <title>Novo Site</title>
+    </head>
+    <body class="body_artigo">
+        <header class="webpro_header">
+            <h1 class="titulo_artigo">WebPro</h1>
+            <ul>
+                <a href="{{url_for('usuario_sites')}}" class="sobre_artigo">Salvar</a>
+                <a href="{{url_for('editor_site')}}" class="sobre_artigo">Voltar</a>
+                <title>WebPro</title>
+            </ul>
+        </header>
+        <h1 class="h1_artigo">{{Titulo}}</h1>
+        <main class="main_artigo">
+            <article class="article_artigo">
+                <h2 class="h2_artigo">{{Artigo1}}</h2>
+                <p class="p_artigo">{{descricao}}</p>
+            </article>
+            <article class="article_artigo">
+                <h2 class="h2_artigo">{{Artigo2}}</h2>
+                <p class="p_artigo">{{Descricao2}}</p>
+            </article>
+            <article class="article_artigo">
+                <h2 class="h2_artigo">Título do Artigo 3</h2>
+                <p class="p_artigo">Aqui é um novo artigo</p>
+            </article>
+            <article class="article_artigo">
+                <h2 class="h2_artigo">{{Novo_titulo}}</h2>
+                <p class="p_artigo">{{Descricao_novo}}</p>
+            </article>
+        </main>
+    </body>
+</html>
