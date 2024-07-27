@@ -25,6 +25,5 @@ A falta de visibilidade e divulgação das lojas locais é um desafio significat
 
 
 ## Anexo:
-Link do site: [WebPro](https://gustavociec.pythonanywhere.com)
-![image](https://github.com/GustavoCiecSilva/WebPro/assets/146038149/f1d5eefe-01a9-4e3e-9062-cab2df1122e3) 
+![image](https://github.com/user-attachments/assets/b50e52ae-2d33-4d79-837c-f7f0c010eb43)
 ![image](https://github.com/GustavoCiecSilva/WebPro/assets/146038149/6ba40ce6-6d39-492d-a551-533185d61e25)
