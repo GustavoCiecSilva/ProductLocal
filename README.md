@@ -1,5 +1,6 @@
 # WebPro
-![WebPro](https://github.com/GustavoCiecSilva/WebPro/assets/146038149/60842801-a499-4ef8-a27d-a8985ce8c7e8)
+![image](https://github.com/user-attachments/assets/1cb2fb7d-78f3-4f72-909a-8ce450058b8f)
+
 
 
 Projeto para apresentar no curso de graduação em Gestão da Tecnologia da Informação do Instituto Federal do Paraná (IFPR).
