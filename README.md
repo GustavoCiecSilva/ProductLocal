@@ -24,6 +24,28 @@ Nosso objetivo é incentivar o crescimento de pequenos micro-empreendedores que 
 
 A falta de visibilidade e divulgação das lojas locais é um desafio significativo. Acreditamos que é crucial apoiar e promover o comércio local, pois isso fortalece a economia da comunidade, preserva a identidade local e fomenta relações mais próximas entre comerciantes e consumidores. Estratégias de marketing, presença online e apoio de plataformas locais podem ajudar a aumentar a visibilidade dessas lojas, valorizando sua importância para a comunidade.
 
+## Atividade Mesa Redonda
+
+1. Os conceitos de MVP, ciclos rápidos de feedback e aprendizado validado podem ser adaptados a diferentes cenários? Como podem ser adaptados em seu projeto interdisciplinar?
+
+  Para acontecer o ciclo rápido de feedback e apresentar o MVP pode ser adaptado para projetos de escopo menor que utilize dessas metodologias ágeis, projetos com um escopo grande não seria possível por conta do prazo de entrega.
+
+
+2. Como você pode otimizar o ciclo "construir, medir e aprender" para garantir que as lições sejam aplicadas de forma eficaz no desenvolvimento de seu produto ou serviço?
+
+  Uma forma de otimizar esse ciclo é já coletar dados suficiente para entender a dor de seu público alvo, para quando desenvolver o MVP ele já atenda a maioria de suas necessidades
+   
+3. Como o engajamento do público alvo é feito em seu projeto interdisciplinar?
+
+  Por meio de formulários e testes do produto para uma coleta de feedback, assim descobrindo o que deve melhorar no sistema
+   
+4. Que metricas podem ser definidas em seu projeto interdisciplinar?
+
+     Nossas metricas se baseiam em prazos de entrega de funcionalidades do sistema, onde nosso público alvo retorna um feedback dessas funcionalidades adicionadas
+   
+5. Planeje como criar e incentivar uma cultura de experimentação em sua equipe ou startup
+
+  
 
 ## Anexo:
 ![image](https://github.com/user-attachments/assets/b50e52ae-2d33-4d79-837c-f7f0c010eb43)
