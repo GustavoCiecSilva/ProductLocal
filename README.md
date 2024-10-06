@@ -45,7 +45,7 @@ A falta de visibilidade e divulgação das lojas locais é um desafio significat
    
 5. Planeje como criar e incentivar uma cultura de experimentação em sua equipe ou startup
 
-  
+   Para criarmos uma cultura de experimentação na nossa equipe devemos incentivar nossos membros da equipe em desenvolverem suas ídeias e mesmo que errem continuem tentando aprimorar até chegar um momento que esse desenvolvimento seja um projeto bem sucedido.
 
 ## Anexo:
 ![image](https://github.com/user-attachments/assets/b50e52ae-2d33-4d79-837c-f7f0c010eb43)
